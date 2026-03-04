@@ -1,5 +1,5 @@
-name,industry,subsector,country,province,region,source,domain_guess,language,market_scope,growth_signal,lead_score,context,opportunity,summary,suggested_roles,queue_priority,research_status
-Hydro Infrastructure Upgrade,Energy,Hydro,Canada,Quebec,North America,SEAO,hydroinfrastructureupgrade.com,English/French,Global,5,95,"Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada",Infrastructure collaboration opportunity,"
+name,industry,subsector,country,province,region,city,language,services,source,naics,domain_guess,market_scope,growth_signal,lead_score,context,opportunity,summary,suggested_roles,queue_priority,research_status
+Hydro Infrastructure Upgrade,Energy,Hydro,Canada,Quebec,North America,,English/French,,SEAO,,hydroinfrastructureupgrade.com,Global,5,95,"Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada",Infrastructure collaboration opportunity,"
 Company: Hydro Infrastructure Upgrade
 Industry: Energy
 Lead Score: 95
@@ -10,7 +10,7 @@ Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada
 Opportunity:
 Infrastructure collaboration opportunity
 ","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",120,New
-Pilbara Autonomous Mine Expansion,Mining,Iron Ore,Australia,Western Australia,Asia-Pacific,SEAO,pilbaraautonomousmineexpansion.com,English,Global,5,83,"Remote operations likely, Expansion phase detected, Active procurement buyer, Geography: Western Australia, Australia",Remote logistics or operational partnership,"
+Pilbara Autonomous Mine Expansion,Mining,Iron Ore,Australia,Western Australia,Asia-Pacific,,English,,SEAO,,pilbaraautonomousmineexpansion.com,Global,5,83,"Remote operations likely, Expansion phase detected, Active procurement buyer, Geography: Western Australia, Australia",Remote logistics or operational partnership,"
 Company: Pilbara Autonomous Mine Expansion
 Industry: Mining
 Lead Score: 83
@@ -21,7 +21,7 @@ Remote operations likely, Expansion phase detected, Active procurement buyer, Ge
 Opportunity:
 Remote logistics or operational partnership
 ","['Operations Director', 'Supply Chain Manager', 'Project Manager']",108,New
-Santos Basin Offshore Construction,Energy,Offshore,Brazil,Rio de Janeiro,Latin America,SEAO,santosbasinoffshoreconstruction.com,Portuguese,Global,4,73,"Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, Brazil",Infrastructure collaboration opportunity,"
+Santos Basin Offshore Construction,Energy,Offshore,Brazil,Rio de Janeiro,Latin America,,Portuguese,,SEAO,,santosbasinoffshoreconstruction.com,Global,4,73,"Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, Brazil",Infrastructure collaboration opportunity,"
 Company: Santos Basin Offshore Construction
 Industry: Energy
 Lead Score: 73
@@ -32,7 +32,18 @@ Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, B
 Opportunity:
 Infrastructure collaboration opportunity
 ","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",93,New
-Siemens Grid Modernization,Energy,Grid,Germany,Bavaria,Europe,AMQ,siemensgridmodernization.com,German,Global,3,73,"Expansion phase detected, Geography: Bavaria, Germany",Infrastructure collaboration opportunity,"
+Quebec Grid Engineering Partners,Energy,Engineering,Canada,Quebec,North America,Quebec City,English/French,,ODBus,5413,quebecgridengineeringpartners.com,Global,3,75,"Expansion phase detected, Geography: Quebec, Canada",Infrastructure collaboration opportunity,"
+Company: Quebec Grid Engineering Partners
+Industry: Energy
+Lead Score: 75
+
+Context:
+Expansion phase detected, Geography: Quebec, Canada
+
+Opportunity:
+Infrastructure collaboration opportunity
+","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",90,New
+Siemens Grid Modernization,Energy,Grid,Germany,Bavaria,Europe,,German,,AMQ,,siemensgridmodernization.com,Global,3,73,"Expansion phase detected, Geography: Bavaria, Germany",Infrastructure collaboration opportunity,"
 Company: Siemens Grid Modernization
 Industry: Energy
 Lead Score: 73
@@ -43,18 +54,18 @@ Expansion phase detected, Geography: Bavaria, Germany
 Opportunity:
 Infrastructure collaboration opportunity
 ","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",88,New
-NextEra Energy,Energy,Renewables,USA,Florida,North America,EnergyRegistry,nexteraenergy.com,English,Global,3,70,"Expansion phase detected, Geography: Florida, USA",Infrastructure collaboration opportunity,"
-Company: NextEra Energy
+Hydro Quebec Supplier Network,Energy,Utilities,Canada,Quebec,North America,Montreal,English/French,,ODBus,2211,hydroquebecsuppliernetwork.com,Global,2,65,"Geography: Quebec, Canada",Infrastructure collaboration opportunity,"
+Company: Hydro Quebec Supplier Network
 Industry: Energy
-Lead Score: 70
+Lead Score: 65
 
 Context:
-Expansion phase detected, Geography: Florida, USA
+Geography: Quebec, Canada
 
 Opportunity:
 Infrastructure collaboration opportunity
-","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",85,New
-Osisko Mining,Mining,Gold,Canada,Quebec,North America,AMQ,osiskomining.com,English/French,Global,1,55,"Remote operations likely, Geography: Quebec, Canada",Remote logistics or operational partnership,"
+","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",75,New
+Osisko Mining,Mining,Gold,Canada,Quebec,North America,,English/French,,AMQ,,osiskomining.com,Global,1,55,"Remote operations likely, Geography: Quebec, Canada",Remote logistics or operational partnership,"
 Company: Osisko Mining
 Industry: Mining
 Lead Score: 55
@@ -65,18 +76,7 @@ Remote operations likely, Geography: Quebec, Canada
 Opportunity:
 Remote logistics or operational partnership
 ","['Operations Director', 'Supply Chain Manager', 'Project Manager']",60,New
-Ørsted,Energy,Wind,Denmark,Capital Region,Europe,EnergyRegistry,ørsted.com,Danish,Global,2,50,"Geography: Capital Region, Denmark",Infrastructure collaboration opportunity,"
-Company: Ørsted
-Industry: Energy
-Lead Score: 50
-
-Context:
-Geography: Capital Region, Denmark
-
-Opportunity:
-Infrastructure collaboration opportunity
-","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",60,New
-Vale Indonesia Growth Program,Mining,Nickel,Indonesia,Sulawesi,Asia-Pacific,AMQ,valeindonesiagrowthprogram.com,Indonesian,Global,1,42,"Remote operations likely, Geography: Sulawesi, Indonesia",Remote logistics or operational partnership,"
+Vale Indonesia Growth Program,Mining,Nickel,Indonesia,Sulawesi,Asia-Pacific,,Indonesian,,AMQ,,valeindonesiagrowthprogram.com,Global,1,42,"Remote operations likely, Geography: Sulawesi, Indonesia",Remote logistics or operational partnership,"
 Company: Vale Indonesia Growth Program
 Industry: Mining
 Lead Score: 42
@@ -87,35 +87,13 @@ Remote operations likely, Geography: Sulawesi, Indonesia
 Opportunity:
 Remote logistics or operational partnership
 ","['Operations Director', 'Supply Chain Manager', 'Project Manager']",47,New
-Norda Stelo,Engineering,Consulting,Canada,Quebec,North America,AMQ,nordastelo.com,English/French,Global,1,40,"Geography: Quebec, Canada",General partnership exploration,"
+Norda Stelo,Engineering,Consulting,Canada,Quebec,North America,,English/French,,AMQ,,nordastelo.com,Global,1,40,"Geography: Quebec, Canada",General partnership exploration,"
 Company: Norda Stelo
 Industry: Engineering
 Lead Score: 40
 
 Context:
 Geography: Quebec, Canada
-
-Opportunity:
-General partnership exploration
-","['Business Development', 'Procurement']",45,New
-Iberdrola Innovation Hub,Energy,Grid,Spain,Basque Country,Europe,AssociationFeed,iberdrolainnovationhub.com,Spanish,Global,1,40,"Geography: Basque Country, Spain",Infrastructure collaboration opportunity,"
-Company: Iberdrola Innovation Hub
-Industry: Energy
-Lead Score: 40
-
-Context:
-Geography: Basque Country, Spain
-
-Opportunity:
-Infrastructure collaboration opportunity
-","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",45,New
-ACWA Power,Infrastructure,Utilities,Saudi Arabia,Riyadh,Middle East,GovDataset,acwapower.com,Arabic,Global,2,35,"Geography: Riyadh, Saudi Arabia",General partnership exploration,"
-Company: ACWA Power
-Industry: Infrastructure
-Lead Score: 35
-
-Context:
-Geography: Riyadh, Saudi Arabia
 
 Opportunity:
 General partnership exploration

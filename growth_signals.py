@@ -4,6 +4,8 @@ SOURCE_SIGNAL_WEIGHT = {
     "EnergyRegistry": 2,
     "AssociationFeed": 1,
     "GovDataset": 2,
+    "ODBUS": 2,
+    "ODBus": 2,
 }
 
 
