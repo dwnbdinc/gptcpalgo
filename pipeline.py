@@ -1,8 +1,4 @@
-import pandas as pd
-
-from amq_scraper import scrape_amq
-from seao_scraper import scrape_seao
-from odbus_loader import download_and_extract_odbus, filter_odbus, load_fallback_odbus
+from collector import collect_companies
 
 from enrichment import enrich
 from growth_signals import detect_growth
@@ -29,13 +25,7 @@ FOCUSED_INDUSTRIES = {
 
 
 def run():
-    try:
-        raw = download_and_extract_odbus()
-        base = filter_odbus(raw, target_rows=10000)
-    except Exception:
-        base = load_fallback_odbus()
-
-    df = pd.concat([base, scrape_amq(), scrape_seao()], ignore_index=True)
+    df = collect_companies()
 
     # Keep only industrially relevant accounts.
     df = df[df["industry"].isin(FOCUSED_INDUSTRIES)].copy()
