@@ -1,4 +1,4 @@
-name: Nightly Update
+name: Nightly Pipeline
 
 on:
   schedule:
@@ -6,22 +6,28 @@ on:
   workflow_dispatch:
 
 jobs:
-  run:
+  build:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - run: pip install -r requirements.txt
-      - run: python pipeline.py
+      - name: Install dependencies
+        run: pip install -r requirements.txt
 
-      - run: |
-          git config --global user.name bot
-          git config --global user.email bot@users.noreply.github.com
-          git add data/*.csv
-          git commit -m "Nightly update" || echo "No changes"
+      - name: Run pipeline
+        run: python pipeline.py
+
+      - name: Commit regenerated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/companies.csv data/opportunities.csv data/research_queue.csv
+          git diff --cached --quiet || git commit -m "Nightly data refresh"
           git push
