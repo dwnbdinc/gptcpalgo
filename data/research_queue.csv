@@ -1,4 +1,4 @@
-name,industry,region,country,source,domain_guess,language,market_scope,growth_signal,lead_score,context,opportunity,summary,suggested_roles
+name,industry,region,country,source,domain_guess,language,market_scope,growth_signal,lead_score,context,opportunity,summary,suggested_roles,queue_priority,research_status
 Hydro Infrastructure Upgrade,Energy,Quebec,Canada,SEAO,hydroinfrastructureupgrade.com,English/French,Global,5,85,"Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada",Infrastructure collaboration opportunity,"
 Company: Hydro Infrastructure Upgrade
 Industry: Energy
@@ -9,7 +9,7 @@ Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada
 
 Opportunity:
 Infrastructure collaboration opportunity
-","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']"
+","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",110,New
 Pilbara Autonomous Mine Expansion,Mining,Western Australia,Australia,SEAO,pilbaraautonomousmineexpansion.com,English,Global,5,83,"Remote operations likely, Expansion phase detected, Active procurement buyer, Geography: Western Australia, Australia",Remote logistics or operational partnership,"
 Company: Pilbara Autonomous Mine Expansion
 Industry: Mining
@@ -20,7 +20,7 @@ Remote operations likely, Expansion phase detected, Active procurement buyer, Ge
 
 Opportunity:
 Remote logistics or operational partnership
-","['Operations Director', 'Supply Chain Manager', 'Project Manager']"
+","['Operations Director', 'Supply Chain Manager', 'Project Manager']",108,New
 Santos Basin Offshore Construction,Energy,Rio de Janeiro,Brazil,SEAO,santosbasinoffshoreconstruction.com,Portuguese,Global,4,73,"Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, Brazil",Infrastructure collaboration opportunity,"
 Company: Santos Basin Offshore Construction
 Industry: Energy
@@ -31,7 +31,7 @@ Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, B
 
 Opportunity:
 Infrastructure collaboration opportunity
-","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']"
+","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",93,New
 Siemens Grid Modernization,Energy,Bavaria,Germany,AMQ,siemensgridmodernization.com,German,Global,2,53,"Geography: Bavaria, Germany",Infrastructure collaboration opportunity,"
 Company: Siemens Grid Modernization
 Industry: Energy
@@ -42,7 +42,7 @@ Geography: Bavaria, Germany
 
 Opportunity:
 Infrastructure collaboration opportunity
-","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']"
+","['VP Partnerships', 'Director Business Development', 'Procurement Manager', 'Project Director']",63,New
 Osisko Mining,Mining,Quebec,Canada,AMQ,osiskomining.com,English/French,Global,1,45,"Remote operations likely, Geography: Quebec, Canada",Remote logistics or operational partnership,"
 Company: Osisko Mining
 Industry: Mining
@@ -53,7 +53,7 @@ Remote operations likely, Geography: Quebec, Canada
 
 Opportunity:
 Remote logistics or operational partnership
-","['Operations Director', 'Supply Chain Manager', 'Project Manager']"
+","['Operations Director', 'Supply Chain Manager', 'Project Manager']",50,New
 Vale Indonesia Growth Program,Mining,Sulawesi,Indonesia,AMQ,valeindonesiagrowthprogram.com,Indonesian,Global,1,42,"Remote operations likely, Geography: Sulawesi, Indonesia",Remote logistics or operational partnership,"
 Company: Vale Indonesia Growth Program
 Industry: Mining
@@ -64,7 +64,7 @@ Remote operations likely, Geography: Sulawesi, Indonesia
 
 Opportunity:
 Remote logistics or operational partnership
-","['Operations Director', 'Supply Chain Manager', 'Project Manager']"
+","['Operations Director', 'Supply Chain Manager', 'Project Manager']",47,New
 Norda Stelo,Engineering,Quebec,Canada,AMQ,nordastelo.com,English/French,Global,1,30,"Geography: Quebec, Canada",General partnership exploration,"
 Company: Norda Stelo
 Industry: Engineering
@@ -75,4 +75,4 @@ Geography: Quebec, Canada
 
 Opportunity:
 General partnership exploration
-","['Business Development', 'Procurement']"
+","['Business Development', 'Procurement']",35,New
