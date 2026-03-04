@@ -10,3 +10,8 @@ run_date,name,industry,province,source,lead_score,growth_signal,context,opportun
 2026-03-04,Ørsted,Energy,Capital Region,EnergyRegistry,50,2,"Geography: Capital Region, Denmark",Infrastructure collaboration opportunity
 2026-03-04,Iberdrola Innovation Hub,Energy,Basque Country,AssociationFeed,40,1,"Geography: Basque Country, Spain",Infrastructure collaboration opportunity
 2026-03-04,ACWA Power,Infrastructure,Riyadh,GovDataset,35,2,"Geography: Riyadh, Saudi Arabia",General partnership exploration
+2026-03-04,Rio Tinto Rail Automation Program,Mining,Western Australia,ODBUS,53,2,"Remote operations likely, Geography: Western Australia, Australia",Remote logistics or operational partnership
+2026-03-04,Vattenfall Grid Reliability Initiative,Energy,Stockholm County,ODBUS,60,3,"Expansion phase detected, Geography: Stockholm County, Sweden",Infrastructure collaboration opportunity
+2026-03-04,SNC-Lavalin Industrial Retrofit Project,Engineering,Ontario,ODBUS,60,3,"Expansion phase detected, Geography: Ontario, Canada",General partnership exploration
+2026-03-04,Hydro Quebec Supplier Network,Energy,Quebec,ODBus,65,2,"Geography: Quebec, Canada",Infrastructure collaboration opportunity
+2026-03-04,Quebec Grid Engineering Partners,Energy,Quebec,ODBus,75,3,"Expansion phase detected, Geography: Quebec, Canada",Infrastructure collaboration opportunity
