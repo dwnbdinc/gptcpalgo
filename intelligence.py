@@ -10,6 +10,6 @@ def build_context(row):
     if row["source"] == "SEAO":
         context.append("Active procurement buyer")
 
-    context.append(f"Geography: {row['region']}, {row['country']}")
+    context.append(f"Geography: {row['province']}, {row['country']}")
 
     return ", ".join(context)

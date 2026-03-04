@@ -2,6 +2,7 @@ PRIORITY_INDUSTRIES = {
     "Mining": 25,
     "Energy": 25,
     "Engineering": 10,
+    "Infrastructure": 10,
 }
 
 COUNTRY_STRATEGIC_WEIGHT = {
@@ -12,11 +13,17 @@ COUNTRY_STRATEGIC_WEIGHT = {
     "Indonesia": 7,
 }
 
+PARTNERSHIP_PRIORITY_MARKETS = {"USA", "Canada", "UK", "Germany"}
+
 
 def score(df):
     def calc(row):
         score_value = PRIORITY_INDUSTRIES.get(row["industry"], 0)
         score_value += COUNTRY_STRATEGIC_WEIGHT.get(row["country"], 5)
+
+        if row["country"] in PARTNERSHIP_PRIORITY_MARKETS:
+            score_value += 10
+
         score_value += row["growth_signal"] * 10
         return score_value
 

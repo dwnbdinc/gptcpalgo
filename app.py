@@ -23,6 +23,24 @@ if use_watchlist and not watchlist_df.empty:
     companies = apply_watchlist_filter(companies, watchlist_df)
     queue = apply_watchlist_filter(queue, watchlist_df)
 
+country_options = ["All"] + sorted(companies["country"].dropna().unique().tolist())
+country = st.sidebar.selectbox("Country", country_options)
+if country != "All":
+    companies = companies[companies["country"] == country]
+    queue = queue[queue["country"] == country]
+
+region_options = ["All"] + sorted(companies["region"].dropna().unique().tolist())
+region = st.sidebar.selectbox("Region", region_options)
+if region != "All":
+    companies = companies[companies["region"] == region]
+    queue = queue[queue["region"] == region]
+
+industry_options = ["All"] + sorted(companies["industry"].dropna().unique().tolist())
+industry = st.sidebar.selectbox("Industry", industry_options)
+if industry != "All":
+    companies = companies[companies["industry"] == industry]
+    queue = queue[queue["industry"] == industry]
+
 min_score = st.sidebar.slider("Minimum lead score", 0, 100, 0)
 companies = companies[companies["lead_score"] >= min_score]
 queue = queue[queue["lead_score"] >= min_score]
@@ -45,6 +63,8 @@ with tabs[0]:
         with st.expander(row["name"]):
             st.write("Industry:", row.get("industry", ""))
             st.write("Province:", row.get("province", ""))
+            st.write("Country:", row.get("country", ""))
+            st.write("Region:", row.get("region", ""))
             st.write("Lead score:", row.get("lead_score", ""))
             st.write("Growth signal:", row.get("growth_signal", ""))
 
@@ -121,6 +141,8 @@ with tabs[4]:
         for _, e in opps.iterrows():
             with st.expander(f"🚨 {e['company']}"):
                 st.write("Industry:", e.get("industry", ""))
+                st.write("Country:", e.get("country", ""))
+                st.write("Region:", e.get("region", ""))
                 st.write("Confidence:", e.get("confidence", ""))
                 st.write("Signals:", e.get("reasons", ""))
                 st.write("Opportunity:", e.get("opportunity", ""))

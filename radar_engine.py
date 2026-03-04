@@ -27,6 +27,7 @@ def detect_opportunities(df):
                     "company": row["name"],
                     "industry": row["industry"],
                     "country": row["country"],
+                    "province": row["province"],
                     "region": row["region"],
                     "confidence": "HIGH" if score >= 4 else "MEDIUM",
                     "reasons": ", ".join(reasons),

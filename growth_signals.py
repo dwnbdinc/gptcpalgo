@@ -1,6 +1,9 @@
 SOURCE_SIGNAL_WEIGHT = {
     "SEAO": 3,
     "AMQ": 1,
+    "EnergyRegistry": 2,
+    "AssociationFeed": 1,
+    "GovDataset": 2,
 }
 
 
@@ -19,6 +22,7 @@ def detect_growth(df):
         "expansion",
         "modernization",
         "infrastructure",
+        "grid",
     ]
 
     for keyword in keywords:
