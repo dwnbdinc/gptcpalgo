@@ -1,34 +1,78 @@
-name,industry,province,source,domain_guess,language,growth_signal,lead_score,context,opportunity,summary
-Norda Stelo,Engineering,Quebec,AMQ,nordastelo.com,French,0,10,,General partnership exploration,"
-Company: Norda Stelo
-Industry: Engineering
-Lead Score: 10
+name,industry,region,country,source,domain_guess,language,market_scope,growth_signal,lead_score,context,opportunity,summary
+Hydro Infrastructure Upgrade,Energy,Quebec,Canada,SEAO,hydroinfrastructureupgrade.com,English/French,Global,5,85,"Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada",Infrastructure collaboration opportunity,"
+Company: Hydro Infrastructure Upgrade
+Industry: Energy
+Lead Score: 85
 
 Context:
-
+Expansion phase detected, Active procurement buyer, Geography: Quebec, Canada
 
 Opportunity:
-General partnership exploration
+Infrastructure collaboration opportunity
 "
-Osisko Mining,Mining,Quebec,AMQ,osiskomining.com,French,0,35,Remote operations likely,Remote logistics or operational partnership,"
-Company: Osisko Mining
+Pilbara Autonomous Mine Expansion,Mining,Western Australia,Australia,SEAO,pilbaraautonomousmineexpansion.com,English,Global,5,83,"Remote operations likely, Expansion phase detected, Active procurement buyer, Geography: Western Australia, Australia",Remote logistics or operational partnership,"
+Company: Pilbara Autonomous Mine Expansion
 Industry: Mining
-Lead Score: 35
+Lead Score: 83
 
 Context:
-Remote operations likely
+Remote operations likely, Expansion phase detected, Active procurement buyer, Geography: Western Australia, Australia
 
 Opportunity:
 Remote logistics or operational partnership
 "
-Hydro Infrastructure Upgrade,Energy,Quebec,SEAO,hydroinfrastructureupgrade.com,French,3,65,"Expansion phase detected, Active procurement buyer",Infrastructure collaboration opportunity,"
-Company: Hydro Infrastructure Upgrade
+Santos Basin Offshore Construction,Energy,Rio de Janeiro,Brazil,SEAO,santosbasinoffshoreconstruction.com,Portuguese,Global,4,73,"Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, Brazil",Infrastructure collaboration opportunity,"
+Company: Santos Basin Offshore Construction
 Industry: Energy
-Lead Score: 65
+Lead Score: 73
 
 Context:
-Expansion phase detected, Active procurement buyer
+Expansion phase detected, Active procurement buyer, Geography: Rio de Janeiro, Brazil
 
 Opportunity:
 Infrastructure collaboration opportunity
+"
+Siemens Grid Modernization,Energy,Bavaria,Germany,AMQ,siemensgridmodernization.com,German,Global,2,53,"Geography: Bavaria, Germany",Infrastructure collaboration opportunity,"
+Company: Siemens Grid Modernization
+Industry: Energy
+Lead Score: 53
+
+Context:
+Geography: Bavaria, Germany
+
+Opportunity:
+Infrastructure collaboration opportunity
+"
+Osisko Mining,Mining,Quebec,Canada,AMQ,osiskomining.com,English/French,Global,1,45,"Remote operations likely, Geography: Quebec, Canada",Remote logistics or operational partnership,"
+Company: Osisko Mining
+Industry: Mining
+Lead Score: 45
+
+Context:
+Remote operations likely, Geography: Quebec, Canada
+
+Opportunity:
+Remote logistics or operational partnership
+"
+Vale Indonesia Growth Program,Mining,Sulawesi,Indonesia,AMQ,valeindonesiagrowthprogram.com,Indonesian,Global,1,42,"Remote operations likely, Geography: Sulawesi, Indonesia",Remote logistics or operational partnership,"
+Company: Vale Indonesia Growth Program
+Industry: Mining
+Lead Score: 42
+
+Context:
+Remote operations likely, Geography: Sulawesi, Indonesia
+
+Opportunity:
+Remote logistics or operational partnership
+"
+Norda Stelo,Engineering,Quebec,Canada,AMQ,nordastelo.com,English/French,Global,1,30,"Geography: Quebec, Canada",General partnership exploration,"
+Company: Norda Stelo
+Industry: Engineering
+Lead Score: 30
+
+Context:
+Geography: Quebec, Canada
+
+Opportunity:
+General partnership exploration
 "

@@ -1,2 +1,4 @@
-company,industry,confidence,reasons,opportunity
-Hydro Infrastructure Upgrade,Energy,HIGH,"Expansion signals, Active procurement",Infrastructure collaboration opportunity
+company,industry,country,region,confidence,reasons,opportunity
+Hydro Infrastructure Upgrade,Energy,Canada,Quebec,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Infrastructure collaboration opportunity
+Pilbara Autonomous Mine Expansion,Mining,Australia,Western Australia,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Remote logistics or operational partnership
+Santos Basin Offshore Construction,Energy,Brazil,Rio de Janeiro,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Infrastructure collaboration opportunity
