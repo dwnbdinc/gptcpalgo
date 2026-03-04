@@ -1,0 +1,34 @@
+name,industry,province,source,domain_guess,language,growth_signal,lead_score,context,opportunity,summary
+Norda Stelo,Engineering,Quebec,AMQ,nordastelo.com,French,0,10,,General partnership exploration,"
+Company: Norda Stelo
+Industry: Engineering
+Lead Score: 10
+
+Context:
+
+
+Opportunity:
+General partnership exploration
+"
+Osisko Mining,Mining,Quebec,AMQ,osiskomining.com,French,0,35,Remote operations likely,Remote logistics or operational partnership,"
+Company: Osisko Mining
+Industry: Mining
+Lead Score: 35
+
+Context:
+Remote operations likely
+
+Opportunity:
+Remote logistics or operational partnership
+"
+Hydro Infrastructure Upgrade,Energy,Quebec,SEAO,hydroinfrastructureupgrade.com,French,3,65,"Expansion phase detected, Active procurement buyer",Infrastructure collaboration opportunity,"
+Company: Hydro Infrastructure Upgrade
+Industry: Energy
+Lead Score: 65
+
+Context:
+Expansion phase detected, Active procurement buyer
+
+Opportunity:
+Infrastructure collaboration opportunity
+"
