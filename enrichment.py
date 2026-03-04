@@ -4,6 +4,10 @@ LANGUAGE_BY_COUNTRY = {
     "Germany": "German",
     "Australia": "English",
     "Indonesia": "Indonesian",
+    "USA": "English",
+    "Denmark": "Danish",
+    "Spain": "Spanish",
+    "Saudi Arabia": "Arabic",
 }
 
 

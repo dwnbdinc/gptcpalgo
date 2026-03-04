@@ -1,4 +1,6 @@
-company,industry,country,region,confidence,reasons,opportunity
-Hydro Infrastructure Upgrade,Energy,Canada,Quebec,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Infrastructure collaboration opportunity
-Pilbara Autonomous Mine Expansion,Mining,Australia,Western Australia,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Remote logistics or operational partnership
-Santos Basin Offshore Construction,Energy,Brazil,Rio de Janeiro,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Infrastructure collaboration opportunity
+company,industry,country,province,region,confidence,reasons,opportunity
+Siemens Grid Modernization,Energy,Germany,Bavaria,Europe,HIGH,"Expansion signals, Priority industry, High lead score",Infrastructure collaboration opportunity
+Hydro Infrastructure Upgrade,Energy,Canada,Quebec,North America,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Infrastructure collaboration opportunity
+Santos Basin Offshore Construction,Energy,Brazil,Rio de Janeiro,Latin America,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Infrastructure collaboration opportunity
+Pilbara Autonomous Mine Expansion,Mining,Australia,Western Australia,Asia-Pacific,HIGH,"Expansion signals, Active procurement, Priority industry, High lead score",Remote logistics or operational partnership
+NextEra Energy,Energy,USA,Florida,North America,HIGH,"Expansion signals, Priority industry, High lead score",Infrastructure collaboration opportunity

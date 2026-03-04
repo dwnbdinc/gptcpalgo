@@ -2,6 +2,7 @@ import pandas as pd
 
 from amq_scraper import scrape_amq
 from seao_scraper import scrape_seao
+from global_sources import scrape_global_energy
 
 from enrichment import enrich
 from growth_signals import detect_growth
@@ -19,8 +20,29 @@ from account_mapper import suggest_contacts
 from history import append_signals_log
 
 
+FOCUSED_INDUSTRIES = {
+    "Energy",
+    "Mining",
+    "Engineering",
+    "Infrastructure",
+}
+
+
 def run():
-    df = pd.concat([scrape_amq(), scrape_seao()], ignore_index=True)
+    df = pd.concat(
+        [
+            scrape_amq(),
+            scrape_seao(),
+            scrape_global_energy(),
+        ],
+        ignore_index=True,
+    )
+
+    # Keep only industrially relevant accounts.
+    df = df[df["industry"].isin(FOCUSED_INDUSTRIES)].copy()
+
+    # Keep one canonical row per company-country pair.
+    df.drop_duplicates(subset=["name", "country"], inplace=True)
 
     df = enrich(df)
     df = detect_growth(df)
